@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: flex;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(25, 25, 61);
+  font-family: "Poppins", sans-serif;
+}
+.header-section {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(/Img/code-net.jfif) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding-top: 10rem;
+  flex-direction: column;
+}
+.span-text {
+  display: block;
+  text-align: center;
+}
+.first-writeup {
+  font-size: 3rem;
+}
+.second-writeup {
+  font-size: 6rem;
+}
+.third-writeup {
+  font-size: 2rem;
+}
+/************ Section************/
+
+.about-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6rem 3rem;
+}
+.about-me {
+  color: #fff;
+}
+.aboutme-writeup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutme-writeup > h2 {
+  font-size: 3rem;
+  color: rgb(25, 25, 61);
+}
+.aboutme-writeup > p {
+  font-size: 2rem;
+  width: 50%;
+}
+.about-tool > h3 {
+  color: rgb(25, 25, 61);
+  padding: 4rem 0;
+  text-align: center;
+  font-size: 3rem;
+}
+.aboutmytool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  line-height: 2;
+}
+.tool-list {
+  padding-left: 6rem;
+}
+.tool-list-1 {
+  padding-left: 6rem;
+}
+
+/* *************Section B************* */
+.project {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4rem 3rem;
+}
+.heading-text {
+  color: rgb(25, 25, 61);
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem 0 8rem 0;
+}
+.project-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-img img {
+  border-radius: 7px;
+}
+.view {
+  width: 50%;
+}
+
+.piew {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 3rem 0;
+}
+.dropdown {
+  display: flex;
+  list-style: none;
+}
+.dropdown-list {
+  padding: 1rem 2rem 1rem 0;
+  font-size: 1.5rem;
+}
+.img-text {
+  font-size: 3rem;
+  color: rgb(25, 25, 61);
+}
+.button-btn {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.btn {
+  margin-left: 2rem;
+  outline: none;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2px;
+}
+.paragraph {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+/* ************Section C*********** */
+.contactme {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4rem 3rem;
+}
+.contact-writeup > h3 {
+  color: rgb(25, 25, 61);
+  text-align: center;
+  font-size: 4rem;
+  margin: 2rem 0 0 0;
+}
+.contact-writeup > p {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+.svg-image {
+  width: 4%;
+}
+.box-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+.input-box {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+}
+.text {
+  padding-left: 2rem;
+}
+
+/* *************Media Query************* */
+@media screen and (min-width: 280px) {
+  .portfolio-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .header-section {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    height: 50vh;
+  }
+  .image-section {
+    padding-top: 12rem;
+  }
+  .image-section > * {
+    margin-bottom: 0.5rem;
+  }
+  .first-writeup {
+    font-size: 1.7rem;
+  }
+  .second-writeup {
+    font-size: 2.7rem;
+  }
+  .third-writeup {
+    font-size: 1.7rem;
+  }
+
+  /* ****About me*** */
+  .about-section {
+    padding: 6rem 1rem;
+  }
+  .aboutme-writeup > h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .aboutme-writeup > p {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .about-tool > h3 {
+    padding: 6rem 0;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .aboutmytool {
+    font-size: 1.9rem;
+  }
+
+  /* ******project****** */
+  .project {
+    padding: 4rem 1rem;
+  }
+  .tool-list {
+    padding-left: 4rem;
+  }
+  .tool-list-1 {
+    padding-left: 4rem;
+  }
+  .view {
+    width: 100%;
+  }
+  .dropdown-list {
+    padding: 1rem 2rem 1rem 0;
+    font-size: 2rem;
+  }
+  .paragraph {
+    text-align: center;
+  }
+  .img-text {
+    font-weight: 600;
+  }
+
+  /* ****contactme*** */
+  .contact-writeup > h3 {
+    margin-bottom: 2rem;
+  }
+}
+.svg-image {
+  width: 10%;
+}
+.box-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+.input-box {
+  width: 100%;
+  background-color: black;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+}
+.text {
+  padding-left: 2rem;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 405px) {
+  .header-section {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    height: 50vh;
+  }
+  .image-section {
+    padding-top: 12rem;
+  }
+  .image-section > * {
+    margin-bottom: 0.5rem;
+  }
+  .aboutme-writeup > p {
+    font-size: 2.5rem;
+  }
+  .aboutmytool {
+    font-size: 2.2rem;
+  }
+
+  .first-writeup {
+    font-size: 2rem;
+  }
+  .second-writeup {
+    font-size: 3.5rem;
+  }
+  .third-writeup {
+    font-size: 2rem;
+  }
+  .tool-list {
+    padding-left: 5rem;
+  }
+  .tool-list-1 {
+    padding-left: 9rem;
+  }
+  .paragraph {
+    font-size: 2.2rem;
+  }
+  .img-text {
+    font-size: 3.5rem;
+  }
+
+  .text {
+    font-size: 2rem;
+  }
+  .about-tool > h3 {
+    font-size: 3.3rem;
+  }
+  .input-box {
+    width: 80%;
+    padding: 1rem 2rem;
+    border-radius: 7px;
+  }
+  .contact-writeup > p {
+    font-size: 2.5rem;
+  }
+  .button-btn {
+    font-size: 1.8rem;
+    padding-top: 2.2rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .header-section {
+    height: 70vh;
+  }
+  .image-section > * {
+    margin-bottom: 0.8rem;
+  }
+  .first-writeup {
+    font-size: 2.5rem;
+  }
+  .second-writeup {
+    font-size: 4rem;
+  }
+  .third-writeup {
+    font-size: 2.5rem;
+  }
+  .tool-list {
+    padding-left: 6rem;
+  }
+  .tool-list-1 {
+    padding-left: 9rem;
+  }
+  .svg-image {
+    width: 8%;
+  }
+  .text {
+    font-size: 2.3rem;
+  }
+  .contact-writeup > p {
+    font-size: 2.7rem;
+  }
+  .button-btn {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .view {
+    width: 70%;
+  }
+  .aboutme-writeup > p {
+    font-size: 2.7rem;
+  }
+  .aboutmytool {
+    font-size: 2.5rem;
+  }
+  .about-section {
+    padding: 2rem 3rem;
+  }
+  .project {
+    padding: 2rem 3rem;
+  }
+  .contactme {
+    padding: 2rem 3rem;
+  }
+  .tool-list {
+    padding-left: 8rem;
+  }
+  .tool-list-1 {
+    padding-left: 9rem;
+  }
+  .paragraph {
+    font-size: 2.7rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .about-section {
+    padding: 3rem 5rem;
+  }
+  .project {
+    padding: 3rem 5rem;
+  }
+  .contactme {
+    padding: 3rem 5rem;
+  }
+  .tool-list {
+    padding-left: 6rem;
+  }
+  .tool-list-1 {
+    padding-left: 10rem;
+  }
+  .about-tool > h3 {
+    font-size: 3rem;
+  }
+  .first-writeup {
+    font-size: 3.2rem;
+  }
+  .second-writeup {
+    font-size: 5rem;
+  }
+  .third-writeup {
+    font-size: 3.2rem;
+  }
+  .input-box {
+    width: 50%;
+    padding: 1rem 2rem;
+  }
+  .button-btn {
+    font-size: 2.2rem;
+  }
+  .aboutmytool {
+    font-size: 2.2rem;
+  }
+  @media screen and (min-width: 1200px) {
+    .about-section {
+      padding: 4rem 7rem;
+    }
+    .project {
+      padding: 4rem 7rem;
+    }
+    .contactme {
+      padding: 4rem 7rem;
+    }
+    .aboutme-writeup > h2 {
+      font-size: 3rem;
+    }
+    .button-btn {
+      font-size: 2.5rem;
+    }
+
+    .aboutme-writeup > p {
+      font-size: 2.5rem;
+      width: 70%;
+    }
+    .view {
+      width: 50%;
+    }
+    .tool-list {
+      padding-left: 6rem;
+    }
+    .tool-list-1 {
+      padding-left: 10rem;
+    }
+    .first-writeup {
+      font-size: 3.2rem;
+    }
+    .second-writeup {
+      font-size: 5rem;
+    }
+    .third-writeup {
+      font-size: 3.2rem;
+    }
+    .input-box {
+      width: 50%;
+    }
+    .header-section {
+      height: 70vh;
+    }
+    .image-section > * {
+      margin-bottom: 1rem;
+    }
+    .svg-image {
+      width: 5%;
+    }
+    .text {
+      font-size: 2rem;
+    }
+    .contact-writeup > p {
+      font-size: 2.3rem;
+    }
+  }
+}
